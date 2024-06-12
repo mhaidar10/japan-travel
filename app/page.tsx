@@ -173,8 +173,8 @@ export default function Home() {
             ABOUT JAPAN
           </h1>
           <h1 className="text-white xl:text-base md:mx-0 md:max-w-80 xl:max-w-lg text-justify mt-8 mx-4 xl:mx-0 md:line-clamp-3 lg:line-clamp-none line-clamp-3 ">
-            Explore Japan's captivating blend of ancient traditions and modern
-            attractions. Discover Kyoto's serene temples, Tokyo's bustling
+            Explore Japan&apos;s captivating blend of ancient traditions and modern
+            attractions. Discover Kyoto&apos;s serene temples, Tokyo&apos;s bustling
             streets, and the majestic beauty of Mount Fuji. Indulge in
             world-renowned cuisine, from delicate sushi to hearty ramen.
             Experience mesmerizing cherry blossom seasons and immerse yourself
@@ -309,7 +309,7 @@ export default function Home() {
             EXPLORE MORE <br /> DESTINATIONS MAP <br /> IN JAPAN
           </h1>
           <h1 className="text-white text-base lg:w-96 lg:mt-8 md:text-center text-center hidden lg:block lg:text-justify ">
-            Explore Japan's diverse regions and uncover hidden gems. From Tokyo to Kyoto, discover rich history, culture, and natural beauty.
+            Explore Japan&apos;s diverse regions and uncover hidden gems. From Tokyo to Kyoto, discover rich history, culture, and natural beauty.
           </h1>
           <button className="hidden lg:block text-lg rounded-md w-52 mt-8 h-20 border-4 border-pink-500 text-white hover:bg-pink-500 hover:text-white transition-colors duration-300 font-bold ">
             Explore
@@ -344,7 +344,7 @@ export default function Home() {
             BEAUTIFUL PLACE <br /> MUST TO VISIT <br /> IN JAPAN
           </h1>
           <h1 className="text-white text-base lg:w-96  lg:mt-8 md:text-center text-center hidden lg:block lg:text-justify">
-            Explore Japan's iconic landscapes and rich culture, from Kyoto's cherry blossoms to Nara's serene temples. Discover the perfect blend of tradition and modernity.
+            Explore Japan&apos;s iconic landscapes and rich culture, from Kyoto&apos;s cherry blossoms to Nara&apos;s serene temples. Discover the perfect blend of tradition and modernity.
           </h1>
           <div className="flex justify-between mt-4">
             <h1 className="text-gray-500 font-bold">PHOTO BY</h1>
