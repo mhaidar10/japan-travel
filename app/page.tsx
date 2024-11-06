@@ -155,8 +155,10 @@ export default function Home() {
         <h1 className="text-pink-500 sm:text-2xl font-bold">日本</h1>
         <h1 className="text-white sm:text-3xl font-bold">JAPAN</h1>
       </div>
-      <img
-        src="assets/bg-logo.png"
+      <Image
+        width={500}
+        height={500}
+        src="/assets/bg-logo.png"
         alt="logo"
         className="xl:w-24 mx-60 mt-32 hidden lg:block"
       />
@@ -193,7 +195,9 @@ export default function Home() {
 
         <div className="flex flex-col sm:flex-row md:space-x-2 xl:space-x-8 md:justify-center items-center w-full md:w-10/12 xl:w-6/12 md:grow-0">
           {/* White Tower Image */}
-          <img
+          <Image
+            width={500}
+            height={500}
             src="/assets/white-tower.png"
             alt="hiroshima"
             className="object-center rounded-lg xl:w-72 sm:h-full h-80 w-11/12 mt-2 md:w-9/12 "
@@ -201,7 +205,9 @@ export default function Home() {
           />
 
           {/* Hiroshima Image */}
-          <img
+          <Image
+            width={500}
+            height={500}
             src="/assets/hiroshima.png"
             alt="hiroshima"
             className="object-center rounded-lg xl:w-72 sm:h-full mt-2 hidden xl:block md:hidden "
@@ -225,8 +231,10 @@ export default function Home() {
 
       <div className="lg:flex lg:mx-60 lg:space-x-4 lg:mt-16 justify-between md:mx-16 md:mt-8 mt-8">
         <div className="relative w-full lg:w-1/3 h-96 group ">
-          <img
-            src="assets/explore/culture.png"
+          <Image
+            width={500}
+            height={500}
+            src="/assets/explore/culture.png"
             alt="culture"
             className="rounded-lg w-full h-full object-cover transition-transform duration-500 ease-in-out transform brightness-50 group-hover:blur-sm"
           />
@@ -240,8 +248,10 @@ export default function Home() {
           </div>
         </div>
         <div className="relative w-full lg:w-1/3 h-96 group">
-          <img
-            src="assets/explore/ramen.png"
+          <Image
+            width={500}
+            height={500}
+            src="/assets/explore/ramen.png"
             alt="culinary"
             className="rounded-lg w-full h-full object-cover transition-transform duration-500 ease-in-out transform brightness-50 group-hover:blur-sm"
           />
@@ -255,8 +265,10 @@ export default function Home() {
           </div>
         </div>
         <div className="relative w-full lg:w-1/3 h-96 group">
-          <img
-            src="assets/explore/drone.png"
+          <Image
+            width={500}
+            height={500}
+            src="/assets/explore/drone.png"
             alt="technology"
             className="rounded-lg w-full h-full object-cover transition-transform duration-500 ease-in-out transform brightness-50 group-hover:blur-sm"
           />
@@ -294,11 +306,15 @@ export default function Home() {
 
       <div className="lg:mt-16 flex lg:mx-48 md:flex-col md:items-center flex-col lg:flex-row ">
         <div className="">
-          <img src="assets/destination/map-nobg.png" alt="map" />
+          <Image
+            width={500}
+            height={500} src="/assets/destination/map-nobg.png" alt="map" />
         </div>
         <div className="lg:flex lg:flex-col ">
-          <img
-            src="assets/bg-logo.png"
+          <Image
+            width={500}
+            height={500}
+            src="/assets/bg-logo.png"
             alt="logo"
             className="lg:w-24 mb-4 md:hidden hidden lg:block"
           />
@@ -336,7 +352,9 @@ export default function Home() {
 
       <div className="flex lg:flex-row lg:mx-32 lg:mt-16 lg:gap-8 flex-col mx-4 md:mx-32">
         <div>
-          <img src="assets/bg-logo.png" className="xl:w-24 hidden lg:block" alt="" />
+          <Image
+            width={500}
+            height={500} src="/assets/bg-logo.png" className="xl:w-24 hidden lg:block" alt="" />
           <h1 className="text-pink-500 sm:text-2xl font-bold mb-4 md:text-center text-center hidden lg:block lg:text-left">
             日本で必見の美しい場所
           </h1>
@@ -371,21 +389,39 @@ export default function Home() {
       </div>
       <div className="grid grid-cols-3 lg:gap-8 lg:mx-48 md:mx-24 md:gap-4 md:mt-8 mt-4 mx-8 gap-2">
         <div className="flex flex-col gap-4">
-          <img src="assets/gallery/3.png" alt="3" className="rounded-lg brightness-75 object-cover w-full h-24 basis-2/6" />
-          <img src="assets/gallery/2.png" alt="2" className="rounded-lg brightness-75 object-cover w-full h-24 basis-1/6" />
-          <img src="assets/gallery/1.png" alt="1" className="rounded-lg brightness-75 object-cover w-full h-24 basis-2/6" />
+          <Image
+            width={500}
+            height={500} src="/assets/gallery/3.png" alt="3" className="rounded-lg brightness-75 object-cover w-full h-24 basis-2/6" />
+          <Image
+            width={500}
+            height={500} src="/assets/gallery/2.png" alt="2" className="rounded-lg brightness-75 object-cover w-full h-24 basis-1/6" />
+          <Image
+            width={500}
+            height={500} src="/assets/gallery/1.png" alt="1" className="rounded-lg brightness-75 object-cover w-full h-24 basis-2/6" />
         </div>
 
         <div className="flex flex-col gap-4">
-          <img src="assets/gallery/4.png" alt="4" className="rounded-lg brightness-75 object-cover w-full h-24 basis-2/6" />
-          <img src="assets/gallery/5.png" alt="5" className="rounded-lg brightness-75 object-cover w-full h-24 basis-2/6" />
-          <img src="assets/gallery/6.png" alt="6" className="rounded-lg brightness-75 object-cover w-full h-24 basis-1/6" />
+          <Image
+            width={500}
+            height={500} src="/assets/gallery/4.png" alt="4" className="rounded-lg brightness-75 object-cover w-full h-24 basis-2/6" />
+          <Image
+            width={500}
+            height={500} src="/assets/gallery/5.png" alt="5" className="rounded-lg brightness-75 object-cover w-full h-24 basis-2/6" />
+          <Image
+            width={500}
+            height={500} src="/assets/gallery/6.png" alt="6" className="rounded-lg brightness-75 object-cover w-full h-24 basis-1/6" />
         </div>
 
         <div className="flex flex-col gap-4">
-          <img src="assets/gallery/8.png" alt="8" className="rounded-lg brightness-75 object-cover w-full h-24 basis-1/6" />
-          <img src="assets/gallery/7.png" alt="7" className="rounded-lg brightness-75 object-cover w-full h-24 basis-2/6" />
-          <img src="assets/gallery/9.png" alt="9" className="rounded-lg brightness-75 object-cover w-full h-24 basis-2/6" />
+          <Image
+            width={500}
+            height={500} src="/assets/gallery/8.png" alt="8" className="rounded-lg brightness-75 object-cover w-full h-24 basis-1/6" />
+          <Image
+            width={500}
+            height={500} src="/assets/gallery/7.png" alt="7" className="rounded-lg brightness-75 object-cover w-full h-24 basis-2/6" />
+          <Image
+            width={500}
+            height={500} src="/assets/gallery/9.png" alt="9" className="rounded-lg brightness-75 object-cover w-full h-24 basis-2/6" />
         </div>
       </div>
 
@@ -400,13 +436,19 @@ export default function Home() {
               </div>
               <div className="flex space-x-4">
                 <a href="" className="text-gray-300 hover:text-white transition duration-300">
-                  <img src="/assets/footer/whatsapp.svg" alt="WhatsApp" className="h-6 w-6" />
+                  <Image
+                    width={500}
+                    height={500} src="/assets/footer/whatsapp.svg" alt="WhatsApp" className="h-6 w-6" />
                 </a>
                 <a href="" className="text-gray-300 hover:text-white transition duration-300">
-                  <img src="/assets/footer/youtube.svg" alt="WhatsApp" className="h-6 w-6" />
+                  <Image
+                    width={500}
+                    height={500} src="/assets/footer/youtube.svg" alt="WhatsApp" className="h-6 w-6" />
                 </a>
                 <a href="" className="text-gray-300 hover:text-white transition duration-300">
-                  <img src="/assets/footer/instagram.svg" alt="WhatsApp" className="h-6 w-6" />
+                  <Image
+                    width={500}
+                    height={500} src="/assets/footer/instagram.svg" alt="WhatsApp" className="h-6 w-6" />
                 </a>
               </div>
             </div>
