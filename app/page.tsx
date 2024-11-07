@@ -126,8 +126,8 @@ export default function Home() {
         <Image
           src="/assets/main-img.png"
           alt="Logo"
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: "cover" }}
           quality={100}
           className="bg-right-bottom"
         />
